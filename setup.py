@@ -30,7 +30,7 @@ setup(
     author=__author__,
     description="Django URL Filter provides a safe way to filter data via human-friendly URLs.",
     long_description="\n\n".join([readme, history, authors, licence]),
-    url="https://github.com/jcmjcm10/django4_url_filter",
+    url="https://github.com/miki725/django-url-filter",
     license="MIT",
     packages=find_packages(exclude=["test_project*", "tests*"]),
     install_requires=requirements,
@@ -45,12 +45,6 @@ setup(
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: 3.6",  # Añade compatibilidad con Python 3.6
-        "Programming Language :: Python :: 3.7",  # Añade compatibilidad con Python 3.7
-        "Programming Language :: Python :: 3.8",  # Añade compatibilidad con Python 3.8
-        "Programming Language :: Python :: 3.8.10",  # Añade compatibilidad con Python 3.8
-        "Programming Language :: Python :: 3.9",  # Añade compatibilidad con Python 3.9
-        "Programming Language :: Python :: 3.10", # Añade compatibilidad con Python 3.10
         "Development Status :: 2 - Pre-Alpha",
     ],
 )

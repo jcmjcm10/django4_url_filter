@@ -5,7 +5,7 @@ import re
 from functools import wraps
 
 import six
-from django.utils.functional import cached_property
+from cached_property import cached_property
 from django import forms
 from django.core.exceptions import ValidationError
 

@@ -3,7 +3,7 @@ from __future__ import absolute_import, print_function, unicode_literals
 import abc
 
 import six
-from django.utils.functional import cached_property
+from cached_property import cached_property
 
 
 class BaseFilterBackend(six.with_metaclass(abc.ABCMeta, object)):
