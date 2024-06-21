@@ -26,7 +26,6 @@ test_requirements = req + dev_req
 
 setup(
     name="django-url-filter",
-    python_requires='>=3.11',
     version=__version__,
     author=__author__,
     description="Django URL Filter provides a safe way to filter data via human-friendly URLs.",
