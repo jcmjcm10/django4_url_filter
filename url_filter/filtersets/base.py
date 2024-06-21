@@ -6,7 +6,7 @@ from collections import defaultdict
 from copy import deepcopy
 
 import six
-from cached_property import cached_property
+from django.utils.functional import cached_property
 from django.core.exceptions import ValidationError
 from django.core.validators import RegexValidator
 from django.db.models.constants import LOOKUP_SEP
