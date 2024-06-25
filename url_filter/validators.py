@@ -16,7 +16,7 @@ class MinLengthValidator(_MinLengthValidator):
     """
 
     code = "min_length"
-    message = gettext_lazy(
+    message = agettext_lazy(
         "Ensure this value has at least %(limit_value)d items (it has %(show_value)d).",
         "Ensure this value has at least %(limit_value)d items (it has %(show_value)d).",
         "limit_value",
